@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Главная</title>
+</head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="header__container"></div>
+</header>
+
+      <main class="page">
+        <section class="connect">
+          <div class="connect__container">
+            <h1 class="connect__title">
+              Reach Out and <span>Connect</span> With Us
+            </h1>
+            <p class="connect__subtitle">
+              Bridging Your Ideas with Our Expertise
+            </p>
+            <form id="form" class="connect-form connect__form">
+              <div class="form-control">
+                <input type="text" id="username" placeholder="Name *">
+                <small>Error Message</small>
+              </div>
+              <div class="form-control">
+                <input type="text" id="email" placeholder="E-mail *">
+                <small>Error Message</small>
+              </div>
+              <div class="form-control">
+                <input type="tel" id="phone" placeholder="Phone *">
+                <small>Error Message</small>
+              </div>
+              <div class="form-control">
+                <input type="password" id="password" placeholder="Password *">
+                <small>Error Message</small>
+                <button id="show">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 22 15" fill="none">
+                    <path d="M21.9065 7.11753C19.6621 3.15003 15.4814 0 11 0C6.51859 0 2.33789 3.15003 0.0935156 7.11753C-0.0311719 7.35003 -0.0311719 7.63503 0.0935156 7.86753C2.33789 11.8425 6.51859 15 11 15C15.4814 15 19.6621 11.8425 21.9065 7.86753C22.0312 7.63503 22.0312 7.35003 21.9065 7.11753ZM11 12.1875C8.46958 12.1875 6.4159 10.0875 6.4159 7.50003C6.4159 4.91253 8.46958 2.81253 11 2.81253C13.5304 2.81253 15.5841 4.91253 15.5841 7.50003C15.5841 10.0875 13.5304 12.1875 11 12.1875Z" fill="#2A3B53"/>
+                    <path d="M11 10.6869C12.7216 10.6869 14.1172 9.2598 14.1172 7.49939C14.1172 5.73898 12.7216 4.31189 11 4.31189C9.27842 4.31189 7.88281 5.73898 7.88281 7.49939C7.88281 9.2598 9.27842 10.6869 11 10.6869Z" fill="#2A3B53"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="form-control">
+                <div class="wrapper-dropdown" id="dropdown">
+                  <span class="selected-display" id="destination">Choise your city *</span>
+
+                  <svg class="arrow" id="drp-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M14.7762 4.66863L14.3176 4.22189C14.1733 4.08237 13.9813 4.00551 13.7761 4.00551C13.571 4.00551 13.3787 4.08237 13.2344 4.22189L8.00313 9.28308L2.76584 4.21627C2.62174 4.07675 2.42949 4 2.22438 4C2.01928 4 1.82692 4.07675 1.6827 4.21627L1.224 4.66026C0.925333 4.94899 0.925333 5.4193 1.224 5.70802L7.45963 11.7624C7.60373 11.9018 7.79575 12 8.00267 12H8.00506C8.21029 12 8.4023 11.9017 8.5464 11.7624L14.7762 5.72443C14.9206 5.58502 14.9998 5.39364 15 5.19521C15 4.99667 14.9206 4.80793 14.7762 4.66863Z" fill="#2A3B53"/>
+                  </svg>
+                  <ul class="dropdown">
+                    <li class="dropdown__item">New Jersey</li>
+                    <li class="dropdown__item">New Mexico</li>
+                    <li class="dropdown__item">New York</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="connect-form__bottom">
+                <div class="radio">
+                  <input id="radio-1" name="radio" type="radio">
+                  <label for="radio-1" class="radio-label">
+                    I have read and accepted
+                    <a href="#">privacy policy</a></label>
+                </div>
+                <button type="submit" class="connect-form__btn">Submit</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+  <div class="footer__container">
+    
+  </div>
+</footer>
+    </div>
+    
+<script src="js/app.min.js"></script>
+
+  </body>
+</html>
